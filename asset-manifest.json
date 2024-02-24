@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8ea5677.css",
-    "main.js": "/static/js/main.51ff8501.js",
+    "main.css": "/static/css/main.ed650c15.css",
+    "main.js": "/static/js/main.802cca4a.js",
     "static/media/test.jpg": "/static/media/test.4f57cf410b23ea542665.jpg",
     "static/media/business.jpg": "/static/media/business.e86e528e7cb059fda161.jpg",
     "static/media/lin.jpg": "/static/media/lin.f70f294a6adb366f0934.jpg",
     "static/media/travelContact.jpg": "/static/media/travelContact.7408ab5402f2001f3df7.jpg",
     "static/media/bookingBg.jpg": "/static/media/bookingBg.08ac4fbf43266dfb0bc2.jpg",
+    "static/media/logo.svg": "/static/media/logo.09bb2898dffaaa480b8afec267d4ed32.svg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "static/media/logo.svg": "/static/media/logo.59e010df4189e8066105e1b9db6fef7b.svg",
-    "main.b8ea5677.css.map": "/static/css/main.b8ea5677.css.map",
-    "main.51ff8501.js.map": "/static/js/main.51ff8501.js.map"
+    "main.ed650c15.css.map": "/static/css/main.ed650c15.css.map",
+    "main.802cca4a.js.map": "/static/js/main.802cca4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8ea5677.css",
-    "static/js/main.51ff8501.js"
+    "static/css/main.ed650c15.css",
+    "static/js/main.802cca4a.js"
   ]
 }

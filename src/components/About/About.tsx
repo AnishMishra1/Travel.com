@@ -4,8 +4,7 @@ import { useDispatch } from "react-redux";
 // Local Files
 import { updateTab } from "../../store/curTabSlice";
 import Intro from "../../globalSubComponents/Intro";
-import phot from './assets/medium-shot-smiley-people-traveling.jpg'
-
+import phot from "./assets/medium-shot-smiley-people-traveling.jpg";
 
 const About = () => {
   const dispatch = useDispatch();
@@ -28,10 +27,10 @@ const About = () => {
           </div>
           <div className="py-[1rem] text-gray-600">
             <p className="py-[1rem] text-1xl">
-              "Welcome to FarePerfect - your ultimate destination for seamless travel planning and booking! At
-              FarePerfect, we understand that your travel experiences should be nothing short of perfect. Whether you're
-              jetting off for a business trip or embarking on a dream vacation, we're here to make every aspect of your
-              journey smooth, convenient, and enjoyable.
+              "Welcome to kwalitytravels - your ultimate destination for seamless travel planning and booking! At
+              kwalitytravels, we understand that your travel experiences should be nothing short of perfect. Whether
+              you're jetting off for a business trip or embarking on a dream vacation, we're here to make every aspect
+              of your journey smooth, convenient, and enjoyable.
             </p>
 
             <p className="py-[1rem] text-1xl">

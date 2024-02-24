@@ -30,7 +30,7 @@ const RegionFlights = () => {
             <div className="p-[2rem]">
               <div className="py-[1rem]">
                 <h1 className="text-3xl font-bold  ">
-                  {e?.heading1} <span className="text-[#0a97b0]">FarePerfect</span>
+                  {e?.heading1} <span className="text-[#0a97b0]">kwalitytravels</span>
                 </h1>
               </div>
               <div>
@@ -105,7 +105,7 @@ const RegionFlights = () => {
 
             <div className="flex flex-col items-start justify-center px-[2rem]  ">
               <h2 className="text-3xl  font-bold ">
-                Why Book with <span className="text-[#0a97b0]">FarePerfect</span>
+                Why Book with <span className="text-[#0a97b0]">kwalitytravels</span>
               </h2>
               <div>
                 <ul className="list-disc text-1xl text-gray-600  font-normal px-[2rem] py-[1rem]">
@@ -162,7 +162,7 @@ const RegionFlights = () => {
 
             <div className="flex flex-col items-start justify-center px-[2rem]">
               <h2 className="text-3xl  font-bold  ">
-                Make Your Travel Easier With <span className="text-[#0a97b0]">FarePerfect</span>
+                Make Your Travel Easier With <span className="text-[#0a97b0]">kwalitytravels</span>
               </h2>
               <div>
                 <ul className="list-disc text-1xl text-gray-600  font-normal px-[2rem] py-[1rem]">

@@ -86,7 +86,7 @@ const quickLinks = [
   { name: "FAQ'S", to: "" },
   { name: "First Class Flights", to: "" },
   { name: "Business Class Flights", to: "" },
-  { name: "About Fareperfect", to: "../About" },
+  { name: "About kwalitytravels", to: "../About" },
   { name: "Privacy Policy", to: "./Privacy" },
   { name: "Contact Us", to: "./Contact" },
   { name: "Refund Policy", to: "./Refund" },
@@ -100,14 +100,14 @@ const Footer = () => {
       <div className="text-white py-[2rem] px-[3rem] sm:px-[5rem] md:px-[8rem] flex flex-col gap-[1rem] bg-[#56ab91]">
         <h1 className="font-bold text-white text-[2rem] font-['Kanit']">Disclaimer :</h1>
         <div className="text-[0.9rem] text-justify">
-          Please note that fareperfect operates as an independent travel agency. Our extremely reduced offers are
+          Please note that kwalitytravels operates as an independent travel agency. Our extremely reduced offers are
           non-refundable and come with restrictions on date and routing changes after ticketing and before travel.
           Savings may vary without prior notice, and additional limitations may apply. By using our service, customers
-          explicitly agree that they do so at their sole risk. Fareperfect, its affiliates, and their respective
+          explicitly agree that they do so at their sole risk. kwalitytravels, its affiliates, and their respective
           employees, agents, third-party content providers, or licensors do not warrant that our service will be
           uninterrupted or error-free. Nor do they make any warranties regarding the results that may be obtained from
           using our service or the accuracy, reliability, or content of any information, service, or inventory provided
-          through fareperfect.
+          through kwalitytravels.
         </div>
       </div>
       <footer className="flex flex-col items-center font-['Kanit'] bg-white">

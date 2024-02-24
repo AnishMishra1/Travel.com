@@ -51,14 +51,14 @@ const NavBar = () => {
           <NavbarItem>
             <div className="flex flex-row gap-2">
               <MdEmail className="text-black mt-[0.1rem]" size={20} />
-              <span className="text-white  text-[1rem]">Email : support@fareperfect.com</span>
+              <span className="text-white  text-[1rem]">Email : support@kwalitytravels.com</span>
             </div>
           </NavbarItem>
           <Divider orientation="vertical" className="h-6" />
           <NavbarItem>
             <div className="flex flex-row gap-2">
               <FaPhone className="text-black mt-[0.1rem]" size={18} />
-              <span className="text-white text-[1rem]">Call Now : +1 (844) 671-7473</span>
+              <span className="text-white text-[1rem]">Call Now : +1 (888) -667-8712</span>
             </div>
           </NavbarItem>
         </NavbarContent>
@@ -81,12 +81,12 @@ const NavBar = () => {
         <NavbarContent>
           <NavbarMenuToggle aria-label={navOpenStatus ? "Close menu" : "Open menu"} className="lg:hidden text-black" />
           <Link to="../Home">
-            <Image width={100} src={logo} alt="logo" radius="none" className="hidden lg:block" />
+            <Image width={140} src={logo} alt="logo" radius="none" className="hidden lg:block" />
           </Link>
         </NavbarContent>
         <NavbarContent className="lg:hidden logo mr-[30%]">
           <Link to="../Home">
-            <Image width={90} src={logo} alt="logo" radius="none" />
+            <Image width={140} src={logo} alt="logo" radius="none" />
           </Link>
         </NavbarContent>
 
@@ -124,7 +124,7 @@ const NavBar = () => {
             </Link>
           </NavbarItem>
           <NavbarItem className="hidden lg:flex">
-            <a className="flex gap-[1rem]" href="tel:+1 (844) 671-7473">
+            <a className="flex gap-[1rem]" href="tel:+1 (888) 667-8712">
               <Button
                 startContent={<FaPhone />}
                 variant="solid"

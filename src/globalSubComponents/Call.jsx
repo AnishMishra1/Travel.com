@@ -7,7 +7,7 @@ const Call = () => {
         <div className="p-[1rem]">
           <h2 className="font-bold text-white md:text-[1.5rem] text-1xl text-center">Call Now</h2>
           <h1 className="font-bold text-black md:text-2xl text-1xl text-center">
-            Call For Reservations: +1 (844) 667-8712
+            Call For Reservations: +1 (888) 667-8712
           </h1>
         </div>
       </div>

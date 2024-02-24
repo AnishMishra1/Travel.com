@@ -26,10 +26,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigate to="/Home" />} />
         <Route path="/Home" element={<Home />} />
-        <Route path="/About" element={<About />} />
+        {/* <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Privacy" element={<Privacy />} />
-        <Route path="/Refund" element={<LastMinuteFlights />} />
+        <Route path="/Refund" element={<LastMinuteFlights />} /> */}
         <Route path="/flight/:name" element={<Page />} />
         <Route path="/destination/:place" element={<RegionFlights />} />
         <Route path="/Disclaimer" element={<Disclaimer />} />

@@ -124,7 +124,7 @@ const NavBar = () => {
             </Link>
           </NavbarItem>
           <NavbarItem className="hidden lg:flex">
-            <a className="flex gap-[1rem]" href="tel:+1 (888) -667-8712">
+            <a className="flex gap-[1rem]" href="tel:+1 (888) 667-8712">
               <Button
                 startContent={<FaPhone />}
                 variant="solid"

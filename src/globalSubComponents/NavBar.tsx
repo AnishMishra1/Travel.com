@@ -43,7 +43,7 @@ const NavBar = () => {
         onMenuOpenChange={() => {
           dispatch(updateNavStatus(!navOpenStatus));
         }}
-        className="h-[2rem] py-[1.2rem] nav z-[200] bg-[#0a97b0] justify-center hidden lg:flex"
+        className="h-[2rem] py-[1.2rem] nav z-[200] bg-[#56ab91] justify-center hidden lg:flex"
         maxWidth="xl"
         isBordered
       >
@@ -129,7 +129,7 @@ const NavBar = () => {
                 startContent={<FaPhone />}
                 variant="solid"
                 color="warning"
-                className="text-white hover:scale-110 bg-[#0a97b0]"
+                className="text-white hover:scale-110 bg-[#56ab91]"
                 radius="none"
               >
                 Call Us

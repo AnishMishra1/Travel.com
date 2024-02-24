@@ -31,16 +31,16 @@ const FlightBooking = () => {
   const [roundTrip, setRoundTrip] = useState(false);
 
   return (
-    <div className="flex flex-col justify-center items-center py-[5rem] bg-[#0a97b0] gap-[2rem]">
+    <div className="flex flex-col lg:flex-row justify-center items-center py-[5rem] px-[2rem] lg:px-[5rem]  bg-[#56ab91] gap-[1rem]">
       <div className="flex flex-col sm:gap-[0.5rem]">
-        <h1 className="text-4xl sm:text-5xl font-bold  text-white text-center font-['Kanit']">
+        <h1 className="text-5xl sm:text-6xl font-bold  text-white text-center font-['Kanit']">
           Book <span className="text-black">Flights</span>
         </h1>
         <h2 className="text-center font-bold  text-white">
           Plan Your <span className="text-black">Next Trip</span>{" "}
         </h2>
       </div>
-      <div className="w-[100%] sm:w-[80%] p-[3rem] bg-white sm:rounded-xl md:drop-shadow-xl border-2 flex flex-col gap-[2rem]">
+      <div className="w-[100%] sm:w-[80%] p-[3rem] bg-white rounded-xl md:drop-shadow-xl border-2 flex flex-col gap-[2rem]">
         <RadioGroup
           orientation="horizontal"
           defaultValue="one-way"
@@ -130,7 +130,7 @@ const FlightBooking = () => {
           <Button
             variant="shadow"
             type="submit"
-            className="text-white bg-[#0a97b0] self-center mt-[2rem] p-[1.5rem]"
+            className="text-white bg-[#56ab91] self-center mt-[2rem] p-[1.5rem]"
             radius="full"
             endContent={<IoSend className="" />}
           >

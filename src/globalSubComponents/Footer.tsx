@@ -97,8 +97,8 @@ const Footer = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div className="text-white py-[2rem] px-[3rem] sm:px-[5rem] md:px-[8rem] flex flex-col gap-[1rem] bg-[#0a97b0]">
-        <h1 className="font-bold text-black text-[2rem] font-['Kanit']">Disclaimer :</h1>
+      <div className="text-white py-[2rem] px-[3rem] sm:px-[5rem] md:px-[8rem] flex flex-col gap-[1rem] bg-[#56ab91]">
+        <h1 className="font-bold text-white text-[2rem] font-['Kanit']">Disclaimer :</h1>
         <div className="text-[0.9rem] text-justify">
           Please note that fareperfect operates as an independent travel agency. Our extremely reduced offers are
           non-refundable and come with restrictions on date and routing changes after ticketing and before travel.
@@ -110,9 +110,9 @@ const Footer = () => {
           through fareperfect.
         </div>
       </div>
-      <footer className="flex flex-col items-center font-['Kanit']">
+      <footer className="flex flex-col items-center font-['Kanit'] bg-white">
         <div className="w-[80%]">
-          <div className="text-white py-[2rem] flex flex-col gap-[1rem]">
+          <div className="text-black py-[2rem] flex flex-col gap-[1rem]">
             <h1 className="font-bold opacity-50 text-2xl">Top Airlines :</h1>
             <div className="grid grid-cols-2 md:grid-cols-4">
               {airlines.map((data, index) => (
@@ -127,7 +127,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="text-white py-[2rem] flex flex-col gap-[1rem] border-t">
+          <div className="text-black py-[2rem] flex flex-col gap-[1rem] border-t">
             <h1 className="font-bold opacity-50 text-2xl">Top Destinations :</h1>
             <div className="grid grid-cols-2 md:grid-cols-4">
               {destinations.map((data, index) => (
@@ -142,7 +142,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="text-white py-[2rem] flex flex-col gap-[1rem] border-t">
+          <div className="text-black py-[2rem] flex flex-col gap-[1rem] border-t">
             <h1 className="font-bold opacity-50 text-2xl">Top Flight Routes :</h1>
             <div className="grid grid-cols-1 md:grid-cols-2">
               {routes.map((data, index) => (
@@ -153,7 +153,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="text-white py-[2rem] flex flex-col gap-[1rem] border-t">
+          <div className="text-black py-[2rem] flex flex-col gap-[1rem] border-t">
             <h1 className="font-bold opacity-50 text-2xl">Quick Links :</h1>
             <div className="grid grid-cols-2 md:grid-cols-4">
               {quickLinks.map((data, index) => (
@@ -165,7 +165,7 @@ const Footer = () => {
           </div>
 
           <div className="flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4  ">
-            <div className="flex gap-4 text-blue-gray-900 sm:justify-center text-white">
+            <div className="flex gap-4 text-blue-gray-900 sm:justify-center text-black">
               <Typography
                 placeholder={undefined}
                 as="a"
@@ -235,19 +235,19 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="text-white py-[2rem] flex flex-col md:flex-row md:gap-[1rem] border-t items-center justify-center">
-            <p>FarePerfect LLC</p>
+          <div className="text-black py-[2rem] flex flex-col md:flex-row md:gap-[1rem] border-t items-center justify-center">
+            <p>The Kwality Travel Agency LLC</p>
             <p>●</p>
             <p>ARC Number : 05643573</p>
             <p>●</p>
-            <p>16616 Woodruff Ave, Bellflower, CA 90706, USA</p>
+            <p>25 NEWTON AVE LYNBROOK, NY, 11563</p>
             <p>●</p>
-            <p>Phone : +1 (888) 891-7176</p>
+            <p>Phone : +1 (888) 667-8712</p>
           </div>
         </div>
       </footer>
-      <div className="h-[5rem] font-['Kanit'] text-white text-black-400 text-small md:text-large font-normal flex flex-col items-center justify-center px-[2rem] bg-[#0a97b0]">
-        © 2024 FarePerfect • All Rights Reserved • Designed By TMIS with 🖤
+      <div className="h-[5rem] font-['Kanit'] text-white text-black-400 text-small md:text-large font-normal flex flex-col items-center justify-center px-[2rem] bg-[#56ab91]">
+        © 2024 The Kwality Travel Agency LLC • All Rights Reserved • Designed By TMIS with 🖤
       </div>
     </>
   );

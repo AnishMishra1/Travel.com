@@ -1,67 +1,101 @@
 const OurServices = () => {
   return (
     <>
-      <div className="bg-white flex flex-col items-center justify-center py-[1rem] gap-[2rem] pt-[5rem] pb-[3rem]">
-        <div className="flex flex-col sm:gap-[0.5rem]">
-          <h1 className="text-4xl sm:text-5xl font-bold  text-black text-center font-['Kanit']">
-            Our <span className="text-[#0a97b0]">Services</span>
-          </h1>
-          <h2 className="text-center font-bold  text-black">
-            We Promise <span className="text-[#0a97b0]">Quality</span>{" "}
-          </h2>
-        </div>
+      <div className="flex items-center justify-center bg-white px-[2rem] py-[4rem] ">
+        <h1 className="text-center text-4xl sm:text-5xl text-black font-bold font-['Kanit']">
+          Our <span className="text-[#56ab91]">Products</span>
+        </h1>
       </div>
-      <div className="flex flex-col gap-[2rem] bg-white">
-        <div className="flex bg-white lg:flex-row flex-col items-center justify-evenly md:px-[5rem] px-[2rem] gap-10">
-          <div className="flex flex-col justify-center lg:items-end items-start">
-            <h1 className="font-bold text-3xl text-[#0a97b0] font-['Kanit']">
-              Flight <span className="text-gray-700"> Booking</span>
-            </h1>
-            <div className="py-[1rem] ">
-              <p className="text-gray-600 font-normal text-justify text-[0.9rem]">
-                "Discover seamless travel planning with FarePerfect's flight booking service. Explore a world of
-                destinations and find the best fares for your journey. Whether you're jet-setting for business or
-                leisure, we make it easy to compare prices, select the perfect flight, and secure your seat with
-                confidence. Trust FarePerfect for hassle-free booking and embark on your next adventure with peace of
-                mind."
-              </p>
-            </div>
-            <button className="py-[0.5rem] px-[1.7rem] bg-[#0a97b0] text-white text-[0.9rem]">Read More</button>
+      <div className="flex flex-col lg:flex-row justify-center items-start gap-[4rem] bg-white h-auto p-[4rem]  lg:px-[6rem] lg:py-[2rem]">
+        <div className="flex flex-col justify-start items-start">
+          <div className="py-[0.5rem]">
+            <img
+              className="w-[32rem]"
+              src="https://img.freepik.com/free-photo/flying-commercial-airplane-sunset-business-travel-mode-generated-by-ai_188544-151694.jpg?t=st=1708763395~exp=1708766995~hmac=de02fa03437c0e013b15048a520debdcb3196d345b2e5c75d6f6e07e17af2a92&w=826"
+              alt=""
+            />
           </div>
-          <div className=" lg:inline-block hidden ">
-            <div
-              className="border-[0.5rem] w-[30rem] h-[20rem] flex-grow lg:inline-block hidden bg-cover bg-no-repeat bg-center"
-              style={{
-                backgroundImage:
-                  "url('https://images.unsplash.com/photo-1592985684811-6c0f98adb014?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
-              }}
-            ></div>
+          <div className="py-[0.5rem]">
+            <h1 className="text-start  text-[#56ab91] font-bold text-3xl">Flight Booking Service</h1>
+          </div>
+          <div className="py-[0.5rem]">
+            <p>
+              Welcome to Kwality.com – Your Premier Destination for Hassle-Free Flight Bookings! At Kwality.com, we
+              understand that travel is more than just reaching a destination; it's about the journey itself. That's why
+              we're dedicated to providing you with a seamless and enjoyable flight booking experience every time you
+              plan your next adventure.
+            </p>
+          </div>
+          <div className="py-[0.5rem] text-2xl font-bold">
+            <h2>Why Choose Kwality.com for Your Flight Bookings?</h2>
+          </div>
+          <div className="p-[1rem]">
+            <ul className="list-disc ">
+              <li>
+                Wide Range of Options: Whether you're planning a quick business trip or a leisurely vacation,
+                Kwality.com offers an extensive selection of flights to suit your needs.
+              </li>
+              <li>
+                User-Friendly Interface: Our intuitive website interface makes it easy for you to search, compare, and
+                book flights with just a few clicks
+              </li>
+              <li>
+                Competitive Pricing: At Kwality.com, we believe in offering competitive pricing without compromising on
+                quality.
+              </li>
+              <li>Secure Booking Process: Your security and privacy are our top priorities.</li>
+              <li>
+                24/7 Customer Support: Need assistance or have questions about your booking? Our dedicated customer
+                support team is available 24/7
+              </li>
+            </ul>
           </div>
         </div>
 
-        <div className="flex bg-white lg:flex-row flex-col items-center justify-evenly md:px-[5rem] px-[2rem] gap-10 pb-[5rem] ">
-          <div className=" lg:inline-block hidden ">
-            <div
-              className="border-[0.5rem] w-[30rem] h-[20rem] flex-grow lg:inline-block hidden bg-cover bg-no-repeat bg-center"
-              style={{
-                backgroundImage:
-                  "url('https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
-              }}
-            ></div>
+        <div className="flex flex-col justify-start items-start">
+          <div className="py-[0.5rem]">
+            <img
+              className="w-[32rem]"
+              src="https://img.freepik.com/free-photo/room-interior-hotel-bedroom_23-2150683481.jpg?t=st=1708763541~exp=1708767141~hmac=febae1d3c5091fa979c05e5be298134b9e84b9dfa42e5a35ca18fd10abdd5f14&w=826"
+              alt=""
+            />
           </div>
-          <div className="flex flex-col justify-center items-start">
-            <h1 className=" font-bold text-3xl text-[#0a97b0] font-['Kanit']">
-              Hotel <span className="text-gray-700">Booking</span>
-            </h1>
-            <div className="py-[1rem] ">
-              <p className="text-gray-600  font-normal text-justify text-[0.9rem]">
-                "Welcome to FarePerfect, where your ideal hotel stay awaits! Browse our extensive selection of
-                accommodations worldwide and book with ease. From luxurious resorts to cozy boutique hotels, we have
-                something for every traveler's taste and budget. Enjoy seamless booking, unbeatable deals, and
-                exceptional customer service. Your perfect hotel experience starts here at FarePerfect."
-              </p>
-            </div>
-            <button className="py-[0.5rem] px-[1.7rem] bg-[#0a97b0] text-white text-[0.9rem]">Read More</button>
+          <div className="py-[0.5rem]">
+            <h1 className="text-start  text-[#56ab91] font-bold text-3xl">Hotel Booking Service</h1>
+          </div>
+
+          <div className="py-[0.5rem]">
+            <p>
+              Welcome to Kwality.com – Your Ultimate Destination for Seamless Hotel Bookings! At Kwality.com, we
+              understand that where you stay plays a crucial role in shaping your travel experience. That's why we're
+              dedicated to providing you with a comprehensive and hassle-free platform to book the perfect accommodation
+              for your next journey.
+            </p>
+          </div>
+          <div className="py-[0.5rem] text-2xl font-bold">
+            <h2>Why Choose Kwality.com for Your Hotet Bookings?</h2>
+          </div>
+          <div className="p-[1rem]">
+            <ul className="list-disc ">
+              <li>
+                Extensive Selection: Whether you're planning a luxurious getaway, a budget-friendly stay, or a cozy bed
+                and breakfast
+              </li>
+              <li>
+                User-Friendly Interface: Our intuitive website interface makes it effortless for you to search, compare,
+                and book hotels with ease.
+              </li>
+              <li>Best Price Guarantee: At Kwality.com, we believe in offering the best value for your money.</li>
+              <li>
+                Verified Reviews and Ratings: Make informed decisions with the help of our verified reviews and ratings
+                from fellow travelers
+              </li>
+              <li>Secure Booking Process: Your security and privacy are our top priorities. </li>
+              <li>
+                24/7 Customer Support: Need assistance or have questions about your booking? Our dedicated customer
+                support team is available 24/7
+              </li>
+            </ul>
           </div>
         </div>
       </div>

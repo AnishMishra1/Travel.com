@@ -14,7 +14,7 @@ const BookAFlight = () => {
         </div>
 
         <Button
-          className="text-2xl font-bold bg-[#0a97b0] border text-white self-center p-[2rem] font-['Kanit']"
+          className="text-2xl font-bold bg-[#56ab91] border text-white self-center p-[2rem] font-['Kanit']"
           radius="full"
         >
           Book Flight

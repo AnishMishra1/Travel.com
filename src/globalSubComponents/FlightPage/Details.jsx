@@ -28,7 +28,7 @@ const Details = ({ title, description, businessDes }) => {
       <div className="flex flex-col  items-start justify-start gap-6 px-[4rem] bg-white h-auto w-auto ">
         <div className="flex flex-col items-start justify-center md:px-[2rem] ">
           <h2 className="text-3xl  font-bold font-['Kanit']">
-            Why Book with <span className="text-[#0a97b0]">FarePerfect</span>
+            Why Book with <span className="text-[#0a97b0]">kwalitytravels</span>
           </h2>
           <div>
             <ul className="list-disc text-1xl text-gray-600  font-normal px-[2rem] py-[1rem]">
@@ -109,7 +109,7 @@ const Details = ({ title, description, businessDes }) => {
 
         <div className="flex flex-col items-start justify-center md:px-[2rem]">
           <h2 className="text-3xl  font-bold  font-['Kanit']">
-            Make Your Travel Easier With <span className="text-[#0a97b0]">FarePerfect</span>
+            Make Your Travel Easier With <span className="text-[#0a97b0]">kwalitytravels</span>
           </h2>
           <div>
             <ul className="list-disc text-1xl text-gray-600  font-normal px-[2rem] py-[1rem]">

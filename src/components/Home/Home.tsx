@@ -26,10 +26,10 @@ const Home = () => {
 
   return (
     <div className="max-w-[100vw] overflow-x-hidden">
-      <Popover />
-      <Slider/>
-      <FlightBooking/>
-      <DestinationCard/>
+      {/* <Popover /> */}
+      <Slider />
+      <FlightBooking />
+      <DestinationCard />
       <WhyChooseUs />
       <OurServices />
       <OurPromise />

@@ -1,0 +1,28 @@
+.active {
+  color: #0a97b0;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.notActive {
+  color: black;
+  font-size: 1.1rem;
+}
+
+.notActive:hover {
+  color: #0a97b0;
+}
+
+.navActiveServices::after {
+  content: "";
+  height: 0.25rem;
+  border-radius: 1rem;
+  transform: translate(1.25rem, 1rem) !important;
+  background-color: white;
+  max-width: 6rem;
+  filter: drop-shadow(0 -0.3rem 0.4rem #d7cfd2);
+}
+
+.logo {
+  justify-content: center !important;
+}

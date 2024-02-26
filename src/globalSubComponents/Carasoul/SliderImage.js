@@ -7,11 +7,11 @@ export default [
   {
     title: "BE QUICK!",
     description: '"Book Your Flight Now !!"',
-    urls: "https://img.freepik.com/free-photo/woman-walks-along-airport-with-suitcases_93675-131318.jpg?t=st=1708766740~exp=1708770340~hmac=6b12ff9ae2513e9e1d66c5e840ff654d4b093e060a8492fda43e19e26f9e88cf&w=996",
+    urls: "https://images.unsplash.com/photo-1583330357508-1864f8e57785?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "ACT NOW!",
     description: '"Avail Awesome Discounts !!"',
-    urls: "https://img.freepik.com/free-photo/shooting-from-airplane-window_169016-1852.jpg?t=st=1708772182~exp=1708775782~hmac=4662ec73c4bebdb1c11f4d7742b1eaa1c18232071b8ae4291dc5f1453c5bc5ae&w=996",
+    urls: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];

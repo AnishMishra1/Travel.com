@@ -238,8 +238,6 @@ const Footer = () => {
           <div className="text-black py-[2rem] flex flex-col md:flex-row md:gap-[1rem] border-t items-center justify-center">
             <p>The Kwality Travel Agency LLC</p>
             <p>●</p>
-            <p>ARC Number : 05643573</p>
-            <p>●</p>
             <p>25 NEWTON AVE LYNBROOK, NY, 11563</p>
             <p>●</p>
             <p>Phone : +1 (888) 667-8712</p>
